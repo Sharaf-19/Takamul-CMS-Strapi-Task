@@ -26,7 +26,7 @@ const config: Core.Config.Middlewares = [
   {
     name: 'strapi::cors',
     config: {
-      origin: ['http://localhost:3000', 'https://*.vercel.app'],
+      origin: ['http://localhost:3000', 'https://takamul-frontend-task.vercel.app'],
     },
   },
   'strapi::poweredBy',
